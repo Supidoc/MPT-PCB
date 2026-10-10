@@ -613,12 +613,144 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Active",
+          "name": "Active",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dist1",
+          "name": "Dist1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dist1#",
+          "name": "Dist1#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dist2",
+          "name": "Dist2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dist2#",
+          "name": "Dist2#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dist3",
+          "name": "Dist3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dist3#",
+          "name": "Dist3#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FP",
+          "name": "FP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR#",
+          "name": "MFR#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Modified",
+          "name": "Modified",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Remarks",
+          "name": "Remarks",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Version",
+          "name": "Version",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -671,7 +803,7 @@
         "uuid": "328ebaa0-d01b-4b80-b614-bb0154e8d306"
       }
     ],
-    "used_designators": "J1-2,J101,#FLG1-4,R1-33,R101-104,R107,R115,SW1-3,SW101-102,Q1-2,U1-6,U101,L1-4,L102-103,D1-2,D104,C1-14,C109,BT1-4,#PWR1-46,#PWR49-53,#PWR110-117,#PWR123-128,#PWR141",
+    "used_designators": "J1-2,J101,#FLG1-4,R1-33,R101-104,R107,R115,SW1-3,SW101-102,Q1-2,U1-6,U101,L1-4,L102-103,D1-2,D104,C1-14,C109,BT1-4,#PWR1-46,#PWR49-54,#PWR110-117,#PWR123-128,#PWR141",
     "variants": []
   },
   "sheets": [

@@ -4091,7 +4091,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V4"
 			(at 228.6 86.0369 0)
 			(show_name no)
 			(do_not_autoplace no)

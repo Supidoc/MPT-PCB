@@ -2058,7 +2058,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "db:resistor_0603/00.018.0009.0045"
+		(symbol "db:resistor_0603/00.018.0009.0044"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2082,7 +2082,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1k"
+			(property "Value" "100R"
 				(at 1.27 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2115,7 +2115,7 @@
 					)
 				)
 			)
-			(property "Description" "R 1k 0603"
+			(property "Description" "R 100R 0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 					)
 				)
 			)
-			(property "MFR#" "RC0603FR-071KL"
+			(property "MFR#" "RC0603FR-07100RL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2203,7 +2203,7 @@
 					)
 				)
 			)
-			(property "Dist1#" "311-1.00KHRCT-ND"
+			(property "Dist1#" "311-100HRCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2313,7 +2313,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603"
+			(property "ki_fp_filters" "passive:R_0603 "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2324,7 +2324,7 @@
 					)
 				)
 			)
-			(symbol "resistor_0603/00.018.0009.0045_1_1"
+			(symbol "resistor_0603/00.018.0009.0044_1_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -4745,7 +4745,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V4"
 			(at 88.9 46.6669 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V4"
 			(at 88.9 74.6069 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5159,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V4"
 			(at 209.55 56.8269 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,7 +7543,7 @@
 		)
 	)
 	(symbol
-		(lib_id "db:resistor_0603/00.018.0009.0045")
+		(lib_id "db:resistor_0603/00.018.0009.0044")
 		(at 209.55 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -7565,7 +7565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 211.074 67.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,7 +7598,7 @@
 				)
 			)
 		)
-		(property "Description" "R 1k 0603"
+		(property "Description" "R 100R 0603"
 			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7642,7 +7642,7 @@
 				)
 			)
 		)
-		(property "MFR#" "RC0603FR-071KL"
+		(property "MFR#" "RC0603FR-07100RL"
 			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7686,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Dist1#" "311-1.00KHRCT-ND"
+		(property "Dist1#" "311-100HRCT-ND"
 			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V4"
 			(at 136.652 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
