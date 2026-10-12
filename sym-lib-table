@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MPT_Library") (type "KiCad") (uri "${KIPRJMOD}/MPT_Library.kicad_sym") (options "") (descr ""))
+)

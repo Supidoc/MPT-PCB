@@ -3943,6 +3943,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 109.22) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffcf2eb-e2e6-4d7e-b22f-26c94c84f52d")
+	)
+	(wire
+		(pts
 			(xy 146.05 101.6) (xy 138.43 101.6)
 		)
 		(stroke
@@ -4352,6 +4362,17 @@
 			(justify right)
 		)
 		(uuid "bb9e363b-04f7-4fef-87e5-485a7d504426")
+	)
+	(hierarchical_label "RTC_INT"
+		(shape input)
+		(at 138.43 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c87a7be2-7738-48bc-8a46-4b69eb8c69b1")
 	)
 	(hierarchical_label "SPI2_SDA"
 		(shape output)
