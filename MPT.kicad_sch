@@ -1791,7 +1791,7 @@
 		)
 		(uuid "40bab4c2-d97f-49db-b24b-307fe457590a")
 	)
-	(text "ToDos:\n- Mounting Holes\n- Real Time Clock Module (Nico)\n- Control Switch (Nico)\n   - RC Filter für Debounce\n- Backlight Mosfet\n- Maybe a Buzzer\n- Testpoints"
+	(text "ToDos:\n- Mounting Holes\n- Real Time Clock Module (Nico)\n- Control Switch (Nico)\n   - RC Filter für Debounce\n- Maybe a Buzzer\n- Testpoints"
 		(exclude_from_sim no)
 		(at 48.006 133.604 0)
 		(effects
@@ -1820,9 +1820,21 @@
 		(color 0 0 0 0)
 		(uuid "8e75c04b-b70a-432d-8b88-65a7af0c5948")
 	)
+	(junction
+		(at 109.22 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b602c3cc-b825-4f95-bf88-530be591f70e")
+	)
+	(junction
+		(at 106.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c687ce-0cf5-48bb-8480-51ccb9705012")
+	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 165.1 52.07)
+			(xy 165.1 81.28) (xy 165.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +1914,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 44.45)
+			(xy 157.48 73.66) (xy 157.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 54.61) (xy 167.64 54.61)
+			(xy 182.88 58.42) (xy 167.64 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 52.07) (xy 182.88 52.07)
+			(xy 165.1 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1972,6 +1984,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 41.91) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5171fcd4-04af-4037-a145-804e26e4fcde")
+	)
+	(wire
+		(pts
 			(xy 198.12 129.54) (xy 204.47 129.54)
 		)
 		(stroke
@@ -1982,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 49.53)
+			(xy 162.56 78.74) (xy 162.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 46.99) (xy 182.88 46.99)
+			(xy 160.02 50.8) (xy 182.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2082,23 +2104,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 160.02 46.99)
+			(xy 160.02 76.2) (xy 160.02 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94f65965-6772-4365-9566-5ffcbc6a7880")
-	)
-	(wire
-		(pts
-			(xy 146.05 86.36) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9652c8e1-d961-4215-bb85-3e595109127b")
 	)
 	(wire
 		(pts
@@ -2119,6 +2131,16 @@
 			(type default)
 		)
 		(uuid "9956898f-3641-427a-b02f-ec80a50df5a6")
+	)
+	(wire
+		(pts
+			(xy 182.88 44.45) (xy 109.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9a41da-1450-4eb7-bf17-8f14d27e2681")
 	)
 	(wire
 		(pts
@@ -2152,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 44.45) (xy 182.88 44.45)
+			(xy 157.48 48.26) (xy 182.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 54.61) (xy 167.64 83.82)
+			(xy 167.64 58.42) (xy 167.64 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2232,13 +2254,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 182.88 58.42)
+			(xy 106.68 41.91) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9dbe93a-265b-4b59-b207-1c743e94aa7b")
+		(uuid "db0b25b4-8124-4b65-9d09-3e5626617c96")
 	)
 	(wire
 		(pts
@@ -2252,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 49.53) (xy 182.88 49.53)
+			(xy 162.56 53.34) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2279,6 +2301,16 @@
 			(type default)
 		)
 		(uuid "e5b2fc80-2518-4641-a216-9bcd134d82ca")
+	)
+	(wire
+		(pts
+			(xy 109.22 44.45) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bcb151-a659-4664-b01e-156862920ca1")
 	)
 	(wire
 		(pts
@@ -2359,16 +2391,6 @@
 			(type default)
 		)
 		(uuid "f42db649-e5a2-4921-b3b7-e616c5a69a45")
-	)
-	(wire
-		(pts
-			(xy 170.18 86.36) (xy 170.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbcc9eb9-acd8-467d-8ba4-aba6b8bb784a")
 	)
 	(wire
 		(pts
@@ -4611,8 +4633,8 @@
 		)
 	)
 	(sheet
-		(at 182.88 41.91)
-		(size 29.21 19.05)
+		(at 182.88 39.37)
+		(size 29.21 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4627,7 +4649,7 @@
 		)
 		(uuid "616a7458-ab0e-4b4c-b3d0-68e4c0357e5e")
 		(property "Sheetname" "Display"
-			(at 182.88 41.1984 0)
+			(at 182.88 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4648,18 +4670,8 @@
 				(justify left top)
 			)
 		)
-		(pin "DISP_BACKLIGHT" input
-			(at 182.88 58.42 180)
-			(uuid "81b9d6cb-f2f9-4c25-8052-83e5e740207f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DISP_RESET" input
-			(at 182.88 54.61 180)
+			(at 182.88 58.42 180)
 			(uuid "c606cef5-d358-4d66-8892-565cda6e0552")
 			(effects
 				(font
@@ -4669,7 +4681,7 @@
 			)
 		)
 		(pin "DISP_RS" input
-			(at 182.88 52.07 180)
+			(at 182.88 55.88 180)
 			(uuid "940f56be-e853-46d5-9032-b3cd9bf611f8")
 			(effects
 				(font
@@ -4679,7 +4691,7 @@
 			)
 		)
 		(pin "SPI2_CS0_DISP" input
-			(at 182.88 49.53 180)
+			(at 182.88 53.34 180)
 			(uuid "aebc200f-d853-4a6f-b3e9-3c436f4109e1")
 			(effects
 				(font
@@ -4689,7 +4701,7 @@
 			)
 		)
 		(pin "SPI2_SCL" input
-			(at 182.88 44.45 180)
+			(at 182.88 48.26 180)
 			(uuid "825eb074-c4b0-48e4-ae37-44305a3883a9")
 			(effects
 				(font
@@ -4699,8 +4711,28 @@
 			)
 		)
 		(pin "SPI2_SDA" input
-			(at 182.88 46.99 180)
+			(at 182.88 50.8 180)
 			(uuid "01182b7e-1f62-4026-83cf-e422329d35e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 182.88 44.45 180)
+			(uuid "8b46dc51-8bb9-4b98-9d1e-2a0620f0364e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 182.88 41.91 180)
+			(uuid "1b1a6f16-4c8f-4854-829b-37737c37dbdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,16 +4830,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "DISP_BACKLIGHT" output
-			(at 146.05 86.36 0)
-			(uuid "f955bb0d-d7da-4e58-9305-ffe0875664c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "I2C_SCL" bidirectional

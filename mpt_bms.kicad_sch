@@ -5190,7 +5190,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:WSON-10-1EP_2.5x2.5mm_P0.5mm "
+			(property "ki_fp_filters" "package:WSON-10-1EP_2.5x2.5mm_P0.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6623,7 +6623,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7574,7 +7574,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10610,7 +10610,7 @@
 		)
 		(uuid "0016a8af-3fb7-483d-8ee8-a4acf860fdb8")
 	)
-	(text "Buck Converter"
+	(text "Buck-Boost Converter"
 		(exclude_from_sim no)
 		(at 41.656 82.804 0)
 		(effects
@@ -10664,6 +10664,17 @@
 			(justify left)
 		)
 		(uuid "9e5be44e-7ce8-4382-8650-6b37bce50344")
+	)
+	(text "See Display for the reason \nfor +3V4 instead of +3V3"
+		(exclude_from_sim no)
+		(at 117.602 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4b680aa-d90f-4adb-8996-008a17a41eb0")
 	)
 	(text "Each holder holds a 3.7V \n10440 LI-ION Cell with protection\nType used: Keeppower 10440 - 570mAh 3.6V P1044C"
 		(exclude_from_sim no)
