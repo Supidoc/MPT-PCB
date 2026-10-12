@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "1825910-6") (type "KiCad") (uri "C:/Downloads Vorlesungen/HS26/1825910-6") (options "") (descr ""))
+	(lib (name "2434804_1") (type "KiCad") (uri "C:/Downloads Vorlesungen/HS26/2434804_1") (options "") (descr ""))
+	(lib (name "RV_8263_C8_32_768KHZ_20PPM_TA_QC") (type "KiCad") (uri "C:/Downloads Vorlesungen/HS26/RV_8263_C8_32_768KHZ_20PPM_TA_QC") (options "") (descr ""))
+)

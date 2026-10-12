@@ -951,7 +951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+		(property "Footprint" "RV_8263_C8_32_768KHZ_20PPM_TA_QC:IC_RV-8263-C8-32.768KHZ-20PPM-TA-QC"
 			(at 173.736 127.508 0)
 			(hide yes)
 			(show_name no)
