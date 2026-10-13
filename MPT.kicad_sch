@@ -1815,18 +1815,6 @@
 		(uuid "07f3d0f7-2220-4aa0-9e23-c4ea9b305c53")
 	)
 	(junction
-		(at 69.85 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0850a625-92f5-47e5-8738-d9c60abc63b9")
-	)
-	(junction
-		(at 67.31 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1722e809-bc6f-4c2a-9851-08964fb5fc8d")
-	)
-	(junction
 		(at 204.47 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1863,16 +1851,6 @@
 			(type default)
 		)
 		(uuid "09c120f1-3da5-4268-ae3b-ed810240ced8")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 129.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd88a9f-899a-4535-ba1e-54422064bf0e")
 	)
 	(wire
 		(pts
@@ -1913,16 +1891,6 @@
 			(type default)
 		)
 		(uuid "20985ab0-d218-4ec1-a2cc-b52f72fa90a3")
-	)
-	(wire
-		(pts
-			(xy 69.85 67.31) (xy 43.18 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21baffc9-5c31-42eb-9f13-3bbf98dd3684")
 	)
 	(wire
 		(pts
@@ -2016,26 +1984,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 129.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a12b7fb-4acb-4ca6-bad9-3fbf5ab89299")
-	)
-	(wire
-		(pts
-			(xy 74.93 45.72) (xy 67.31 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d6fe274-b956-4724-aaed-2ae0afbf5a2d")
-	)
-	(wire
-		(pts
 			(xy 182.88 41.91) (xy 106.68 41.91)
 		)
 		(stroke
@@ -2043,16 +1991,6 @@
 			(type default)
 		)
 		(uuid "5171fcd4-04af-4037-a145-804e26e4fcde")
-	)
-	(wire
-		(pts
-			(xy 74.93 48.26) (xy 69.85 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572ad963-1c46-4884-b79e-5bcc1d5ee578")
 	)
 	(wire
 		(pts
@@ -2146,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 69.85) (xy 67.31 69.85)
+			(xy 97.79 69.85) (xy 46.99 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2216,16 +2154,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 45.72) (xy 67.31 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d883637-c6c3-4f59-9041-37ee180f90cd")
-	)
-	(wire
-		(pts
 			(xy 186.69 129.54) (xy 193.04 129.54)
 		)
 		(stroke
@@ -2256,23 +2184,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 149.86 83.82)
+			(xy 167.64 83.82) (xy 146.05 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6ec43a7-f6fa-433e-a45f-133a2c8d1606")
-	)
-	(wire
-		(pts
-			(xy 67.31 69.85) (xy 46.99 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d7ce7e-f71c-473f-ae5a-bb5ef4ed9d0b")
 	)
 	(wire
 		(pts
@@ -2326,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 162.56 90.17)
+			(xy 146.05 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 69.85 67.31)
+			(xy 102.87 67.31) (xy 43.18 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2393,16 +2311,6 @@
 			(type default)
 		)
 		(uuid "e8bcb151-a659-4664-b01e-156862920ca1")
-	)
-	(wire
-		(pts
-			(xy 69.85 48.26) (xy 69.85 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe6c168-e597-46c0-a7e6-ad1489073826")
 	)
 	(wire
 		(pts
@@ -2436,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 160.02 76.2)
+			(xy 146.05 76.2) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 165.1 81.28)
+			(xy 146.05 81.28) (xy 165.1 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 157.48 73.66)
+			(xy 146.05 73.66) (xy 157.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 162.56 78.74)
+			(xy 146.05 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2432,7 @@
 		)
 		(uuid "fe6546ff-7aeb-42a1-bb19-e8ca359f7704")
 	)
-	(label "Buck_En"
+	(label "BUCK_EN"
 		(at 167.64 129.54 0)
 		(effects
 			(font
@@ -4554,7 +4462,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GAUGE_I2C_SDA" bidirectional
+		(pin "I2C_SDA" bidirectional
 			(at 55.88 81.28 180)
 			(uuid "bdff95e1-933a-466c-b8fb-0a2797941dfe")
 			(effects
@@ -4574,7 +4482,7 @@
 				(justify right)
 			)
 		)
-		(pin "GAUGE_I2C_SCL" bidirectional
+		(pin "I2C_SCL" input
 			(at 55.88 78.74 180)
 			(uuid "c7ccaf33-d719-4f69-bf0e-e42fb3434894")
 			(effects
@@ -4623,8 +4531,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 43.18)
-		(size 21.59 16.51)
+		(at 54.61 148.59)
+		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4639,7 +4547,7 @@
 		)
 		(uuid "29fc7d94-8fee-43e7-bab5-72b4e39e651f")
 		(property "Sheetname" "RTC"
-			(at 74.93 42.4684 0)
+			(at 54.61 147.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4650,7 +4558,7 @@
 			)
 		)
 		(property "Sheetfile" "mpt_rtc.kicad_sch"
-			(at 74.93 60.2746 0)
+			(at 54.61 169.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4660,34 +4568,14 @@
 				(justify left top)
 			)
 		)
-		(pin "RTC_I2C_SCL" input
-			(at 74.93 45.72 180)
-			(uuid "a3bdfa7e-9da1-4fe0-8051-3d5660808942")
+		(pin "I2C_SDA" bidirectional
+			(at 54.61 158.75 180)
+			(uuid "73320ddb-6985-4f8b-8e6b-9dd8335f4cd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "RTC_I2C_SDA" bidirectional
-			(at 74.93 48.26 180)
-			(uuid "049f0d72-721b-4336-bf57-90daf2254ce1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RTC_INT" output
-			(at 96.52 58.42 0)
-			(uuid "a6f6bc68-a4f0-451d-b80d-eaee2606232f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -4699,7 +4587,7 @@
 		)
 	)
 	(sheet
-		(at 10.16 11.43)
+		(at 17.78 26.67)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4715,7 +4603,7 @@
 		)
 		(uuid "2c1e297f-9640-413f-b828-db6e79185074")
 		(property "Sheetname" "Maybe Buzzer"
-			(at 10.16 10.7184 0)
+			(at 17.78 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4726,7 +4614,7 @@
 			)
 		)
 		(property "Sheetfile" "mpt_buzzer.kicad_sch"
-			(at 10.16 32.3346 0)
+			(at 17.78 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4861,8 +4749,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 140.97)
-		(size 30.48 21.59)
+		(at 96.52 152.4)
+		(size 25.4 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4877,7 +4765,7 @@
 		)
 		(uuid "cb23cf02-36d8-4e0c-8d61-1efd73476b0f")
 		(property "Sheetname" "User Buttons"
-			(at 99.6184 162.56 90)
+			(at 96.52 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4888,7 +4776,7 @@
 			)
 		)
 		(property "Sheetfile" "mpt_user_buttons.kicad_sch"
-			(at 131.3946 162.56 90)
+			(at 96.52 174.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4896,106 +4784,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GPIO_BUTTON1" output
-			(at 102.87 140.97 90)
-			(uuid "6661b465-753e-40bd-84e0-d494c4cb2820")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_BUTTON2" output
-			(at 105.41 140.97 90)
-			(uuid "e9ae2d8e-ec61-4fa2-9c2c-cc53665f85f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_BUTTON3" output
-			(at 107.95 140.97 90)
-			(uuid "905ca3f2-9ecc-4aae-af09-96afd0e16b8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_BUTTON4" output
-			(at 110.49 140.97 90)
-			(uuid "a94f9d7f-be6b-4391-8932-802815c6ecd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_BUTTON5" output
-			(at 113.03 140.97 90)
-			(uuid "63849d75-69d5-4740-bea4-306dcb4a38ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_JOYSTICK1" output
-			(at 116.84 140.97 90)
-			(uuid "423d5429-0439-4f54-81f1-c46dc305c93b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_JOYSTICK2" output
-			(at 119.38 140.97 90)
-			(uuid "2ee15c5f-0f7e-45cb-b79b-7e7ed14b33bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_JOYSTICK3" output
-			(at 121.92 140.97 90)
-			(uuid "c9216979-9412-45af-ad07-6000a8b2ee43")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_JOYSTICK4" output
-			(at 124.46 140.97 90)
-			(uuid "dc58f10d-2665-4268-be97-0363f4a47d85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_JOYSTICK6" output
-			(at 127 140.97 90)
-			(uuid "9102075d-e803-49bd-b82d-fbcb92d19632")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -5008,7 +4796,7 @@
 	)
 	(sheet
 		(at 113.03 71.12)
-		(size 36.83 21.59)
+		(size 33.02 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5065,7 +4853,7 @@
 			)
 		)
 		(pin "SPI2_CS0_DISP" output
-			(at 149.86 78.74 0)
+			(at 146.05 78.74 0)
 			(uuid "80f008cd-1262-4c86-8f34-162f7527b147")
 			(effects
 				(font
@@ -5075,7 +4863,7 @@
 			)
 		)
 		(pin "SPI2_SCL" output
-			(at 149.86 73.66 0)
+			(at 146.05 73.66 0)
 			(uuid "aa332985-0111-485e-b587-4cfb53017ed0")
 			(effects
 				(font
@@ -5135,7 +4923,7 @@
 			)
 		)
 		(pin "SLEEP_CTRL_PIN" input
-			(at 149.86 90.17 0)
+			(at 146.05 90.17 0)
 			(uuid "0430c387-01fa-427d-a200-bea231b46aa6")
 			(effects
 				(font
@@ -5145,7 +4933,7 @@
 			)
 		)
 		(pin "SPI2_SDA" output
-			(at 149.86 76.2 0)
+			(at 146.05 76.2 0)
 			(uuid "b44fe1bb-e650-45c5-b6ce-398d75571a57")
 			(effects
 				(font
@@ -5155,7 +4943,7 @@
 			)
 		)
 		(pin "DISP_RESET" output
-			(at 149.86 83.82 0)
+			(at 146.05 83.82 0)
 			(uuid "68c2fd3d-63b6-44bd-8c3a-295e863526f2")
 			(effects
 				(font
@@ -5165,18 +4953,8 @@
 			)
 		)
 		(pin "DISP_RS" output
-			(at 149.86 81.28 0)
+			(at 146.05 81.28 0)
 			(uuid "6a7a2647-ae5f-4b9b-994e-3c6c9bd6132e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RTC_INT" input
-			(at 129.54 71.12 90)
-			(uuid "a5c30e0b-471c-4f73-a5f2-65f388e4f5fb")
 			(effects
 				(font
 					(size 1.27 1.27)

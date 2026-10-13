@@ -2260,7 +2260,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:LED_RG_0805_Right_Angle"
+			(property "ki_fp_filters" "diode:LED_RG_0805_Right_Angle "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2492,7 +2492,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10623,7 +10623,7 @@
 	)
 	(text "390mA charge current limit\nR_{iset} = 300/I_{chrg}"
 		(exclude_from_sim no)
-		(at 89.154 68.58 0)
+		(at 88.9 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10687,16 +10687,6 @@
 		)
 		(uuid "aee5711e-a790-4622-b9cd-3fd9adfb69e7")
 	)
-	(text "VDD Anschliessen"
-		(exclude_from_sim no)
-		(at 221.234 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af9fae00-92d1-4ec5-94d5-238059190f3c")
-	)
 	(text "Mode: Automatically transition to Power Save Mode\n"
 		(exclude_from_sim no)
 		(at 73.152 121.666 0)
@@ -10709,7 +10699,7 @@
 	)
 	(text "1100mA input current limit\n+4V2 Charge Cutoff Voltage"
 		(exclude_from_sim no)
-		(at 68.326 70.358 0)
+		(at 56.388 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11694,16 +11684,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 171.45) (xy 85.09 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eec48d6-c2b0-4ba4-8c99-16bb2f41b9ae")
-	)
-	(wire
-		(pts
 			(xy 232.41 59.69) (xy 232.41 64.77)
 		)
 		(stroke
@@ -11824,7 +11804,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 171.45) (xy 85.09 171.45)
+			(xy 76.2 171.45) (xy 96.52 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11891,16 +11871,6 @@
 			(type default)
 		)
 		(uuid "9cce236b-7a05-42de-a665-8b6169229808")
-	)
-	(wire
-		(pts
-			(xy 85.09 162.56) (xy 96.52 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e390db9-3f86-409d-81d1-7398f9d5cb16")
 	)
 	(wire
 		(pts
@@ -12380,7 +12350,7 @@
 				(type solid)
 			)
 		)
-		(column_widths 48.26 17.78 19.05 19.05)
+		(column_widths 48.26 17.78 19.05 17.78)
 		(row_heights 2.54 5.08 5.08 5.08 5.08)
 		(uuid "002d82a6-9355-4845-9a27-63ea70255787")
 		(cells
@@ -12441,7 +12411,7 @@
 			(table_cell "LED Color"
 				(exclude_from_sim no)
 				(at 259.08 132.08 0)
-				(size 19.05 2.54)
+				(size 17.78 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12508,7 +12478,7 @@
 			(table_cell "Green"
 				(exclude_from_sim no)
 				(at 259.08 134.62 0)
-				(size 19.05 5.08)
+				(size 17.78 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12573,7 +12543,7 @@
 			(table_cell "Green + Red = Orange"
 				(exclude_from_sim no)
 				(at 259.08 139.7 0)
-				(size 19.05 5.08)
+				(size 17.78 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12638,7 +12608,7 @@
 			(table_cell "-"
 				(exclude_from_sim no)
 				(at 259.08 144.78 0)
-				(size 19.05 5.08)
+				(size 17.78 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12703,7 +12673,7 @@
 			(table_cell "Red"
 				(exclude_from_sim no)
 				(at 259.08 149.86 0)
-				(size 19.05 5.08)
+				(size 17.78 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -12769,7 +12739,7 @@
 		(uuid "f7f42f12-a431-40e7-8963-6ed99b085ac9")
 	)
 	(label "STAT1"
-		(at 96.52 162.56 180)
+		(at 96.52 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12800,17 +12770,6 @@
 		)
 		(uuid "36ad76b9-1dbc-4b79-be82-735ec51f20d0")
 	)
-	(hierarchical_label "GAUGE_I2C_SCL"
-		(shape bidirectional)
-		(at 196.85 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4d71316-19e7-4e00-aecc-86bf7e2b1792")
-	)
 	(hierarchical_label "GAUGE_GPOUT"
 		(shape input)
 		(at 173.99 53.34 180)
@@ -12833,7 +12792,7 @@
 		)
 		(uuid "acc808dc-97e5-4f60-932c-9ad65824abe3")
 	)
-	(hierarchical_label "GAUGE_I2C_SDA"
+	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 196.85 49.53 180)
 		(effects
@@ -12842,7 +12801,279 @@
 			)
 			(justify right)
 		)
-		(uuid "fd3e7c84-4ac5-4745-a522-05085484955c")
+		(uuid "ca1e3588-f19a-41df-843a-8d407de47afc")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 196.85 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf728172-643f-482e-b6b2-2e771f2f2dc1")
+	)
+	(symbol
+		(lib_id "db:led/08.035.0031.0001")
+		(at 58.42 152.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0026d0de-7e9b-4d80-b79c-8b6aa8d77bf0")
+		(property "Reference" "D1"
+			(at 65.9129 148.4573 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-S326KGJRKT"
+			(at 65.9129 150.8816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diode:LED_RG_0805_Right_Angle"
+			(at 58.42 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-S326KGJRKT.pdf"
+			(at 58.42 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RG LED"
+			(at 47.752 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "led"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Lite-On"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" "LTST"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR#" "LTST-S326KGJRKT"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "Red 2Vf, Green 2Vf"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Remarks" ""
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1" "digikey"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist1#" "160-2033-1-ND"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2" "none"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist2#" ""
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3" "none"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist3#" ""
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Active" "1"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Version" "1"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Modified" "2026-10-09 12:47:00"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP" "LED_RG_0805_Right_Angle"
+			(at 58.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0b3749e3-aa0b-4a68-9047-c9fdaa817e93")
+		)
+		(pin "3"
+			(uuid "eb32c396-e868-498d-84f3-58fa6791acaa")
+		)
+		(pin "1"
+			(uuid "4acb3ec6-f9d9-47ac-b054-67708865119d")
+		)
+		(instances
+			(project "MPT"
+				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306/0397894e-b0a8-431f-a372-a41893fdbb8f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "db:resistor_0603/00.018.0009.0046")
@@ -16275,267 +16506,6 @@
 			(project "MPT"
 				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306/0397894e-b0a8-431f-a372-a41893fdbb8f"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "db:led/08.035.0031.0001")
-		(at 58.42 152.4 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34f7e16e-e7ad-467f-8083-7ae2b0bf47a9")
-		(property "Reference" "D1"
-			(at 65.9129 148.4573 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-S326KGJRKT"
-			(at 65.9129 150.8816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diode:LED_RG_0805_Right_Angle"
-			(at 58.42 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-S326KGJRKT.pdf"
-			(at 58.42 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RG LED"
-			(at 47.752 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "led"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Lite-On"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "LTST"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR#" "LTST-S326KGJRKT"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "Red 2Vf, Green 2Vf"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Remarks" ""
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist1" "digikey"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist1#" "160-2033-1-ND"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist2" "none"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist2#" ""
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist3" "none"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dist3#" ""
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Active" "1"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Version" "1"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Modified" "2026-10-09 12:47:00"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FP" "LED_RG_0805_Right_Angle"
-			(at 58.42 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "353ae1c3-4c23-464d-9792-cefae97328e2")
-		)
-		(pin "2"
-			(uuid "a4bb95f2-c289-4787-aa00-d384d5dcf98b")
-		)
-		(pin "1"
-			(uuid "23ca9b9a-2139-4525-b3b9-7f20d3071e32")
-		)
-		(instances
-			(project "MPT"
-				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306/0397894e-b0a8-431f-a372-a41893fdbb8f"
-					(reference "D1")
 					(unit 1)
 				)
 			)
