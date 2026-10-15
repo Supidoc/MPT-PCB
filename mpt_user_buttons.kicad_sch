@@ -1502,7 +1502,7 @@
 		)
 		(uuid "128d1743-49d6-4063-8b26-feb7ba94cb4e")
 	)
-	(text "Button 3"
+	(text "Button 4\n"
 		(exclude_from_sim no)
 		(at 118.11 79.756 0)
 		(effects
@@ -1512,7 +1512,7 @@
 		)
 		(uuid "4841aa0c-7a47-4e09-90bb-17501d506b8b")
 	)
-	(text "Button 3"
+	(text "Button 4"
 		(exclude_from_sim no)
 		(at 27.94 79.756 0)
 		(effects
