@@ -1114,7 +1114,7 @@
 		)
 		(uuid "0fac50e7-d04d-4b0d-988a-3ff262807334")
 	)
-	(hierarchical_label "RTC_I2C_SCL"
+	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 100.33 113.03 180)
 		(effects
@@ -1125,7 +1125,7 @@
 		)
 		(uuid "49f113cf-804f-47ce-93c8-365abd1b5108")
 	)
-	(hierarchical_label "RTC_I2C_SDA"
+	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 100.33 115.57 180)
 		(effects

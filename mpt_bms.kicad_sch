@@ -2260,7 +2260,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:LED_RG_0805_Right_Angle "
+			(property "ki_fp_filters" "diode:LED_RG_0805_Right_Angle"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

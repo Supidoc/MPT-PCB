@@ -3611,6 +3611,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df0c9c8-9819-4eeb-81d7-1229954d6b50")
+	)
+	(wire
+		(pts
 			(xy 228.6 58.42) (xy 228.6 63.5)
 		)
 		(stroke
@@ -3731,6 +3741,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 99.06) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cdf8f9-2bda-46a8-bbfb-6f6878073af9")
+	)
+	(wire
+		(pts
 			(xy 85.09 66.04) (xy 85.09 64.77)
 		)
 		(stroke
@@ -3738,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "3f92a839-65ce-4c6b-afbd-318151712b68")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa181e7-b51d-4da9-b632-76274131b222")
 	)
 	(wire
 		(pts
@@ -3871,6 +3901,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7774ab1a-0950-44f7-83f7-8c29bfe3a9fc")
+	)
+	(wire
+		(pts
 			(xy 176.53 119.38) (xy 181.61 119.38)
 		)
 		(stroke
@@ -3878,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "7ed327db-39b7-459c-8992-286d798688ab")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ebd1e2-bd85-407f-8ecd-0eec92128a3f")
 	)
 	(wire
 		(pts
@@ -3908,6 +3958,16 @@
 			(type default)
 		)
 		(uuid "96aedaac-e074-4181-a9bd-d7b81485c949")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 146.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fcb600-ee7c-49c1-88e1-009dc9571c0d")
 	)
 	(wire
 		(pts
@@ -3958,6 +4018,26 @@
 			(type default)
 		)
 		(uuid "a659c699-935c-4c32-a904-7797582d1894")
+	)
+	(wire
+		(pts
+			(xy 138.43 78.74) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94da36e-dc4f-402e-a54f-4c4576eea313")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea7e36f-44c6-4ce1-83de-df079a10d9ec")
 	)
 	(wire
 		(pts
@@ -4149,6 +4229,39 @@
 		)
 		(uuid "ff9480de-526d-48bc-801d-a3ba4965f59a")
 	)
+	(hierarchical_label "GPIO_JOYSTICK_DOWN"
+		(shape input)
+		(at 138.43 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "055d2266-5372-4802-9aab-8308a8ba89a3")
+	)
+	(hierarchical_label "GPIO_JOYSTICK_CENTER"
+		(shape input)
+		(at 138.43 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06a10f0a-3940-47ae-90f4-f635e7b8b9be")
+	)
+	(hierarchical_label "GPIO_BUTTON3"
+		(shape input)
+		(at 187.96 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "100d91d2-f6dc-404a-bf30-b71f0fe3c210")
+	)
 	(hierarchical_label "SLEEP_CTRL_PIN"
 		(shape input)
 		(at 187.96 91.44 0)
@@ -4170,6 +4283,28 @@
 			(justify left)
 		)
 		(uuid "30b8faa8-a694-4cf2-b3e0-da60176d25df")
+	)
+	(hierarchical_label "GPIO_JOYSTICK_RIGHT"
+		(shape input)
+		(at 138.43 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3916ba44-f6bd-4bcf-a10e-503fa7d9cc77")
+	)
+	(hierarchical_label "GPIO_JOYSTICK_UP"
+		(shape input)
+		(at 138.43 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e62556d-0547-46a4-85df-7afbe074871f")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
@@ -4215,6 +4350,17 @@
 		)
 		(uuid "7d7e4ded-891d-4567-818a-e539c660a238")
 	)
+	(hierarchical_label "GPIO_BUTTON2"
+		(shape input)
+		(at 187.96 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89db1ba1-6adc-4b11-9c18-7fec734ff441")
+	)
 	(hierarchical_label "RTC_INT"
 		(shape input)
 		(at 138.43 109.22 180)
@@ -4237,6 +4383,17 @@
 		)
 		(uuid "9fa9a4b6-25f8-4eaa-9a22-a0c25c4674ce")
 	)
+	(hierarchical_label "GPIO_JOYSTICK_LEFT"
+		(shape input)
+		(at 138.43 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a21a09fa-4569-49cd-85f8-46d73eacbcf0")
+	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 187.96 76.2 0)
@@ -4258,6 +4415,17 @@
 			(justify right)
 		)
 		(uuid "a8b4b1b4-3395-4cfa-bf65-7c65a7dba974")
+	)
+	(hierarchical_label "GPIO_BUTTON1"
+		(shape input)
+		(at 138.43 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d333c4c3-846c-432d-b89b-dc46360917e7")
 	)
 	(hierarchical_label "DISP_RESET"
 		(shape output)
