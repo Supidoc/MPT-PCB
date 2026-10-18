@@ -5,7 +5,9 @@
 	(uuid "7ddba7d4-79ac-4a79-b298-4e429697e749")
 	(paper "A4")
 	(title_block
+		(title "M.P.T. Sleep Control")
 		(company "Hochschule Luzern, Technik & Architektur")
+		(comment 1 "Designed by Nico Theiler & Dominik Grob")
 	)
 	(lib_symbols
 		(symbol "db:resistor/00.000.0000.0002"
@@ -2107,7 +2109,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1bbff874-ff21-4706-a69c-3211efd2e0bd")
 		(property "Reference" "R4"
 			(at 168.656 69.9657 0)
@@ -2376,7 +2378,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "25b78661-b1d6-449c-b9f8-9d8d5fd91cab")
 		(property "Reference" "R1"
 			(at 126.746 100.4457 0)
@@ -3059,7 +3061,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8225d945-218c-4262-b28b-be7ad3509367")
 		(property "Reference" "R2"

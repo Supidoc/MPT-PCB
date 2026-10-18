@@ -7,6 +7,7 @@
 	(title_block
 		(title "M.P.T BMS")
 		(company "Hochschule Luzern, Technik & Architektur")
+		(comment 1 "Designed by Nico Theiler & Dominik Grob")
 	)
 	(lib_symbols
 		(symbol "db:capacitor/01.018.0008.0001"
@@ -1649,7 +1650,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "db:inductor/02.045.0052.0001"
+		(symbol "db:inductor/02.002.0006.0002"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1684,7 +1685,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "passive:L_Coilcraft_LPS301X"
+			(property "Footprint" "passive:L_2.5mmx1.9mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1695,7 +1696,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Coilcraft_LPS3015.pdf"
+			(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}\\passive\\DS_BOURNS_SRP2010TMA.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1706,7 +1707,7 @@
 					)
 				)
 			)
-			(property "Description" "Power Inductor"
+			(property "Description" "Shielded Power Inductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1728,7 +1729,7 @@
 					)
 				)
 			)
-			(property "MFR" "Coilcraft"
+			(property "MFR" "Bourns"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1739,7 +1740,7 @@
 					)
 				)
 			)
-			(property "Series" "LPS"
+			(property "Series" "SRP3212"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1750,7 +1751,7 @@
 					)
 				)
 			)
-			(property "MFR#" " LPS3015-152MRC "
+			(property "MFR#" "SRP2010TMA-1R5M"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1761,7 +1762,7 @@
 					)
 				)
 			)
-			(property "Rating" "20% 100mOhms"
+			(property "Rating" "2A6, 20%, 80mOhm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1783,7 +1784,7 @@
 					)
 				)
 			)
-			(property "Dist1" "mouser"
+			(property "Dist1" "digikey"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1794,7 +1795,7 @@
 					)
 				)
 			)
-			(property "Dist1#" "994-LPS3015-152MRC"
+			(property "Dist1#" "118-SRP2010TMA-1R5MCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1805,7 +1806,7 @@
 					)
 				)
 			)
-			(property "Dist2" "none"
+			(property "Dist2" "mouser"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1816,7 +1817,7 @@
 					)
 				)
 			)
-			(property "Dist2#" ""
+			(property "Dist2#" " 652-SRP2010TMA-1R5M "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1871,7 +1872,7 @@
 					)
 				)
 			)
-			(property "Modified" "2026-10-09 12:16:53"
+			(property "Modified" "2026-10-15 11:43:07"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1882,7 +1883,7 @@
 					)
 				)
 			)
-			(property "FP" "L_Coilcraft_LPS301X"
+			(property "FP" "L_2.5mmx1.9mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1893,7 +1894,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Power Inductor L"
+			(property "ki_keywords" "inductor coil"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1904,7 +1905,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:L_Coilcraft_LPS301X"
+			(property "ki_fp_filters" "passive:L_2.5mmx1.9mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1915,7 +1916,7 @@
 					)
 				)
 			)
-			(symbol "inductor/02.045.0052.0001_0_1"
+			(symbol "inductor/02.002.0006.0002_0_1"
 				(arc
 					(start 0 2.032)
 					(mid 0.5058 1.524)
@@ -1965,7 +1966,7 @@
 					)
 				)
 			)
-			(symbol "inductor/02.045.0052.0001_1_1"
+			(symbol "inductor/02.002.0006.0002_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.508)
@@ -17428,7 +17429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "db:inductor/02.045.0052.0001")
+		(lib_id "db:inductor/02.002.0006.0002")
 		(at 95.25 90.17 90)
 		(unit 1)
 		(body_style 1)
@@ -17459,7 +17460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "passive:L_Coilcraft_LPS301X"
+		(property "Footprint" "passive:L_2.5mmx1.9mm"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17470,7 +17471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Coilcraft_LPS3015.pdf"
+		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}\\passive\\DS_BOURNS_SRP2010TMA.pdf"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17481,7 +17482,7 @@
 				)
 			)
 		)
-		(property "Description" "Power Inductor"
+		(property "Description" "Shielded Power Inductor"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17503,7 +17504,7 @@
 				)
 			)
 		)
-		(property "MFR" "Coilcraft"
+		(property "MFR" "Bourns"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17514,7 +17515,7 @@
 				)
 			)
 		)
-		(property "Series" "LPS"
+		(property "Series" "SRP3212"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17525,7 +17526,7 @@
 				)
 			)
 		)
-		(property "MFR#" " LPS3015-152MRC "
+		(property "MFR#" "SRP2010TMA-1R5M"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17536,7 +17537,7 @@
 				)
 			)
 		)
-		(property "Rating" "20% 100mOhms"
+		(property "Rating" "2A6, 20%, 80mOhm"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17558,7 +17559,7 @@
 				)
 			)
 		)
-		(property "Dist1" "mouser"
+		(property "Dist1" "digikey"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17569,7 +17570,7 @@
 				)
 			)
 		)
-		(property "Dist1#" "994-LPS3015-152MRC"
+		(property "Dist1#" "118-SRP2010TMA-1R5MCT-ND"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17580,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Dist2" "none"
+		(property "Dist2" "mouser"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17591,7 +17592,7 @@
 				)
 			)
 		)
-		(property "Dist2#" ""
+		(property "Dist2#" " 652-SRP2010TMA-1R5M "
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17646,7 +17647,7 @@
 				)
 			)
 		)
-		(property "Modified" "2026-10-09 12:16:53"
+		(property "Modified" "2026-10-15 11:43:07"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17657,7 +17658,7 @@
 				)
 			)
 		)
-		(property "FP" "L_Coilcraft_LPS301X"
+		(property "FP" "L_2.5mmx1.9mm"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)

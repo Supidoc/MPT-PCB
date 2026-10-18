@@ -46,14 +46,6 @@
 		(color 0 0 0 0)
 		(uuid "c955a079-881f-4993-9ed8-9f2278c11b9b")
 	)
-	(no_connect
-		(at 107.95 72.39)
-		(uuid "dbd0aeec-9cb5-4def-a2cf-d92e8d86a702")
-	)
-	(no_connect
-		(at 107.95 74.93)
-		(uuid "e2767f1a-15e5-43af-a247-4a11e38716a0")
-	)
 	(wire
 		(pts
 			(xy 176.53 125.73) (xy 176.53 120.65)
@@ -116,7 +108,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 72.39) (xy 107.95 72.39)
+			(xy 100.33 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -216,7 +208,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 74.93) (xy 107.95 74.93)
+			(xy 100.33 74.93) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1190,6 +1182,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO_BUTTON4" input
+			(at 118.11 72.39 180)
+			(uuid "b2a68895-add3-448a-bcdc-69d693032a35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_BUTTON5" input
+			(at 118.11 74.93 180)
+			(uuid "a5639ca6-868c-442f-8992-23711e24288a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

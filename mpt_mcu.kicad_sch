@@ -7,6 +7,7 @@
 	(title_block
 		(title "M.P.T MCU")
 		(company "Hochschule Luzern, Technik & Architektur")
+		(comment 1 "Designed by Nico Theiler & Dominik Grob")
 	)
 	(lib_symbols
 		(symbol "db:capacitor/01.018.0025.0013"
@@ -3514,10 +3515,6 @@
 		(uuid "f27366b1-6409-40be-953b-d336f13d101f")
 	)
 	(no_connect
-		(at 176.53 106.68)
-		(uuid "002c78a4-c94b-461b-95ff-bc20f6076e1d")
-	)
-	(no_connect
 		(at 66.04 67.31)
 		(uuid "0a1758c4-e607-4d5c-b5a0-da096c083809")
 	)
@@ -3538,20 +3535,12 @@
 		(uuid "70c8c940-71af-43c8-9861-a057d2659a46")
 	)
 	(no_connect
-		(at 146.05 111.76)
-		(uuid "7c3a5279-4758-4f7c-9712-ebfee2cbaa31")
-	)
-	(no_connect
 		(at 146.05 81.28)
 		(uuid "848e4a45-bca9-45af-b365-472c605b2bab")
 	)
 	(no_connect
 		(at 66.04 92.71)
 		(uuid "9076a719-ae7a-4398-b864-965024c44eb9")
-	)
-	(no_connect
-		(at 176.53 109.22)
-		(uuid "970b356d-8806-488a-8ac0-f82881d093ab")
 	)
 	(no_connect
 		(at 146.05 116.84)
@@ -3564,10 +3553,6 @@
 	(no_connect
 		(at 146.05 119.38)
 		(uuid "bcee7a63-3783-4cef-a57d-7ef78ffe4158")
-	)
-	(no_connect
-		(at 146.05 114.3)
-		(uuid "e433dc59-954f-4a3b-bf91-7d0bee2c0952")
 	)
 	(wire
 		(pts
@@ -3828,6 +3813,16 @@
 			(type default)
 		)
 		(uuid "489941f6-34c6-4cfc-af04-309caa342757")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab72ea0-570e-403a-a90f-b4cca711ba88")
 	)
 	(wire
 		(pts
@@ -4111,6 +4106,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c898faef-99b3-4e2c-946d-afce81253fb5")
+	)
+	(wire
+		(pts
 			(xy 50.8 73.66) (xy 50.8 67.31)
 		)
 		(stroke
@@ -4228,6 +4233,17 @@
 			(justify left bottom)
 		)
 		(uuid "ff9480de-526d-48bc-801d-a3ba4965f59a")
+	)
+	(hierarchical_label "GPIO_BUTTON5"
+		(shape input)
+		(at 187.96 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03bdd694-0b7b-4ddd-a712-870770d7d966")
 	)
 	(hierarchical_label "GPIO_JOYSTICK_DOWN"
 		(shape input)
@@ -4448,6 +4464,17 @@
 			(justify right)
 		)
 		(uuid "df5d3ea8-4fd0-4ef2-a79c-97284641e81a")
+	)
+	(hierarchical_label "GPIO_BUTTON4"
+		(shape input)
+		(at 187.96 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb009666-df2a-4b88-96fb-00acac877a98")
 	)
 	(hierarchical_label "SPI2_CS0_DISP"
 		(shape output)
