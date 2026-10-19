@@ -262,7 +262,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:GCT_USB4105GFA120 "
+			(property "ki_fp_filters" "connector:GCT_USB4105GFA120"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

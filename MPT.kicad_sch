@@ -208,16 +208,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 74.93) (xy 118.11 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5e366f-aca1-451f-9597-a0253e9bf216")
-	)
-	(wire
-		(pts
 			(xy 167.64 67.31) (xy 218.44 67.31)
 		)
 		(stroke
@@ -858,16 +848,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_BUTTON5" output
-			(at 100.33 74.93 0)
-			(uuid "11205f06-68f1-402b-b220-f6bca996540f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO_JOYSTICK_CENTER" output
 			(at 100.33 83.82 0)
 			(uuid "a30fd19b-68d8-45af-b242-592edb4817ca")
@@ -1187,16 +1167,6 @@
 		(pin "GPIO_BUTTON4" input
 			(at 118.11 72.39 180)
 			(uuid "b2a68895-add3-448a-bcdc-69d693032a35")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_BUTTON5" input
-			(at 118.11 74.93 180)
-			(uuid "a5639ca6-868c-442f-8992-23711e24288a")
 			(effects
 				(font
 					(size 1.27 1.27)

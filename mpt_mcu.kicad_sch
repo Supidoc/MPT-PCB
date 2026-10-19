@@ -4106,16 +4106,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 109.22) (xy 187.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c898faef-99b3-4e2c-946d-afce81253fb5")
-	)
-	(wire
-		(pts
 			(xy 50.8 73.66) (xy 50.8 67.31)
 		)
 		(stroke
@@ -4233,17 +4223,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff9480de-526d-48bc-801d-a3ba4965f59a")
-	)
-	(hierarchical_label "GPIO_BUTTON5"
-		(shape input)
-		(at 187.96 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03bdd694-0b7b-4ddd-a712-870770d7d966")
 	)
 	(hierarchical_label "GPIO_JOYSTICK_DOWN"
 		(shape input)
